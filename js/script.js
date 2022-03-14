@@ -165,4 +165,8 @@ $(document).ready(function () {
     $('.family-button').click(function(){
         $('.family-site').toggle();
     });
+
+    $(window).resize(function(){
+        $('.btn-menu').hide();
+    });
 });
